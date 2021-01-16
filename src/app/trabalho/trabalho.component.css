@@ -1,0 +1,43 @@
+.exp-profissional{
+    background-color: rgb(145, 138, 138);
+    color: black;
+    font-family: 'Yusei Magic', sans-serif;
+    width: 205px;
+    text-align: center;
+    border-radius: 6%;
+    font-weight: bold;
+    font-size: 18px;    
+    margin-bottom: 35px;
+}
+
+.container{
+    margin-top: 25px;
+   
+}
+
+.card-text ,{
+    text-align: justify;
+}
+
+.card {
+
+    margin-top: -20px;
+    border: 2px solid #ff9000;
+}
+.barra{
+    margin-left: 20%;
+    color: #ff9000;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: -28px;
+}
+
+.icon{
+    margin-bottom: 20px;
+    color: black;
+    border: #ff9000 solid 1px;
+    padding: 10px;
+    border-radius: 20%;
+    margin-top: -43px;
+    margin-left: 17%;
+}
