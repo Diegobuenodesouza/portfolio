@@ -17,8 +17,9 @@ export class ProjetosComponent implements OnInit {
     {
       titulo : 'Game traduzir frases',
       descricao : 'Nesse projeto crio game para traduzir frases, aonde tem 4 tentativas. A cada erro ou solicitação de dica, você perde um  ♥. Foi utilizado Angular, Bootstrap, HTML, CSS , Typescript e Azure.',
-      github : 'https://traduzir-frases.azurewebsites.net/',
-      site:'https://github.com/Diegobuenodesouza/traduzirfases'
+      github : 'https://github.com/Diegobuenodesouza/traduzirfases',
+      site:'https://traduzir-frases.azurewebsites.net/'
+      
     },
     {
       titulo : 'Emissor de faturas ',
