@@ -1,0 +1,14 @@
+<div class="container" style="margin-top: 20px;">
+    <h2 class="titulo">Projetos</h2>
+    
+    <div *ngFor="let projeto of projetos" class="margin-projeto">       
+            <div class="jumbotron jumbotron-fluid" >
+                <div class="container">
+                    <h4> {{ projeto.titulo}}</h4>
+                    <p > {{ projeto.descricao }}</p>
+                    <p >Código do Projeto: <a class="fa fa-github-square" [href]="projeto.github" target="_blank"></a>   </p> 
+                    <p > Site: <a [href]="projeto.site" target="_blank">{{ projeto.site }}</a></p>
+                </div>
+            </div>        
+    </div>
+</div>

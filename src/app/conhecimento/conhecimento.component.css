@@ -1,0 +1,27 @@
+.container{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card-title{
+    text-align: center;    
+    font-family: 'Yusei Magic', sans-serif;
+    font-weight: bold;
+}
+
+.card-img-top{
+    height:  150px;
+    margin-top: 10px;
+    opacity: .8;
+    padding: 10px;
+   
+}
+.card{
+    
+    box-shadow:black 2px 2px 1px;
+}
+
+.container{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}

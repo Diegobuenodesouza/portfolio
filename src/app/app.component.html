@@ -1,6 +1,32 @@
-<app-navegacao></app-navegacao>
-<div class="linha"></div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin: -10px;">
+    <div class="container-fluid" style="background-color: #ff9100ea;padding: 15px;">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" >Portfolio</a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#sobremim">Sobre mim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#formacao" >Profissional / Formação</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#conhecimentos">Conhecimentos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projetos">Projetos</a>
+          </li>
+        </ul>     
+      </div>
+    </div>
+  </nav>
+
+
 <app-home></app-home>
-<app-about-me></app-about-me>
-<app-trabalho></app-trabalho>
+<app-about-me id="sobremim"></app-about-me>
+<app-trabalho id="formacao"></app-trabalho>
+<app-conhecimento id="conhecimentos"></app-conhecimento>
+<app-projetos id="projetos"></app-projetos>
 <app-referencias></app-referencias>

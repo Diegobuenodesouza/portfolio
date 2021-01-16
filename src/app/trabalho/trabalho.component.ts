@@ -9,7 +9,7 @@ export class TrabalhoComponent implements OnInit {
 
   trabalhos = [
     {
-      empresaPeriodo: "Jedal-Redentor Indústria e Comercio (Jun. 2008 - Atualmente)",
+      empresaPeriodo: "Jedal-Redentor Indústria e Comercio (Jun. 2018 - Atualmente)",
       cargo: "Assistente Fiscal",
       atividades : "Conferência de notas fiscais, conferência de CFOP, NCM, CST, Apurações de  Impostos Lucro Real – Não Cumulativo, Obrigações acessórias, SPED Fiscal ICMS/IPI, SPED Contribuição PIS/COFINS, GIA, DAPI, responsável pela parametrização do sistema para o cálculo dos impostos federais PIS e COFINS."
     },    
@@ -23,6 +23,23 @@ export class TrabalhoComponent implements OnInit {
     cargo: "Assistente Fiscal",
     atividades : "Apurações de Impostos, Simples Nacional, Lucro Presumido e Lucro Real - Comércios, Indústrias e Serviços. Obrigações acessórias, SPED Fiscal ICMS/IPI, SPED Contribuição    PIS/COFINS, GIA."
    }
+]
+
+  formacoes = [{
+    instituicao: "Faculdade Impacta",
+    curso: "Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas",
+    periodo : "2019-2021"
+  },
+  {
+    instituicao: "Udemy",
+    curso: "C# COMPLETO 2020 Programação Orientada a Objetos + Projetos",
+    periodo: "2020"
+  },
+  {
+    instituicao: "Udemy",
+    curso: "Curso de Desenvolvimento WEB com ES6, TypeScript e Angular",
+    periodo: "2020"
+  }
 ]
 
 contador = 0

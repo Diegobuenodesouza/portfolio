@@ -1,0 +1,27 @@
+.jumbotron-fluid{
+    border: 1px solid black;
+    background-color: rgb(252, 218, 208);
+    border-radius: 1%;
+}
+.margin-projeto{
+    margin-bottom: 10px;
+    
+}
+
+.fa-github-square{
+    font-size: 25px;
+    color: inherit;
+    text-decoration:none
+}
+
+.fa-github-square:hover{
+    color: #ff9000ea
+}
+
+h4, p{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 5px;
+    text-align: justify;
+     font-family: 'Yusei Magic', sans-serif;
+}
