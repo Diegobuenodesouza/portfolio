@@ -4,3 +4,16 @@
     margin: 35px -10px;
     font-weight: bold;  
 }
+
+.bi-arrow-up-circle-fill{
+    position: absolute;position: fixed;
+    height: 160%;
+    color: inherit;
+    color: black;
+    margin-left: 10px;
+}
+
+.textolink{
+    text-decoration: none;
+    color: black;
+}

@@ -9,12 +9,12 @@ export class TrabalhoComponent implements OnInit {
 
   trabalhos = [
     {
-      empresaPeriodo: "Jedal-Redentor Indústria e Comercio (Jun. 2018 - Atualmente)",
+      empresaPeriodo: "Jedal Redentor Indústria e Comercio (Jun. 2018 - Atualmente)",
       cargo: "Assistente Fiscal",
-      atividades : "Conferência de notas fiscais, conferência de CFOP, NCM, CST, Apurações de  Impostos Lucro Real – Não Cumulativo, Obrigações acessórias, SPED Fiscal ICMS/IPI, SPED Contribuição PIS/COFINS, GIA, DAPI, responsável pela parametrização do sistema para o cálculo dos impostos federais PIS e COFINS."
+      atividades : "Conferência de notas fiscais, conferência de CFOP, NCM, CST, responsável pela parametrização do sistema para emissão das notas fiscais, calculo de ICMS-ST, ICMS, PIS, COFINS e IPI"
     },    
     {
-    empresaPeriodo: "DEMAC Produtos Farmacêuticos (Fev. 2015 - Jun. 2018)",
+    empresaPeriodo: "Demac Produtos Farmacêuticos (Fev. 2015 - Jun. 2018)",
     cargo: "Analista Fiscal I ",
     atividades : "Conferência de notas fiscais, conferência de CFOP, NCM, CST, Apurações de  Impostos Lucro Real – Não Cumulativo, Obrigações acessórias, SPED Fiscal ICMS/IPI, SPED Contribuição PIS/COFINS, GIA, DAPI, responsável pela parametrização do sistema para o cálculo dos impostos federais PIS e COFINS."
     },
