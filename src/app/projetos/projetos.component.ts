@@ -15,17 +15,18 @@ export class ProjetosComponent implements OnInit {
       site: 'https://devportfolio.azurewebsites.net/'      
     },
     {
-      titulo : 'Game traduzir jogos',
+      titulo : 'Game traduzir frases',
       descricao : 'Nesse projeto crio game para traduzir frases, aonde tem 4 tentativas. A cada erro ou solicitação de dica, você perde um  ♥. Foi utilizado Angular, Bootstrap, HTML, CSS , Typescript e Azure.',
-      github : 'https://github.com/Diegobuenodesouza/traduzirfases',
+      github : 'https://traduzir-frases.azurewebsites.net/',
       site:'https://github.com/Diegobuenodesouza/traduzirfases'
     },
     {
       titulo : 'Emissor de faturas ',
-      descricao : 'Nesse projeto desenvolvo uma ferramenta capaz de facilitar a emissão de fatura para clientes, é possível cadastrar novos clientes com cnpj e cada cliente pode ter uma lista de servico, com descrição e valor. No final é gerado um PDF com todas as informações e com data de competência e valor total, foi utilizado alem das demais ferramentas dos projetos anteriores o Firebase do google para autenticar e fazer CRUD.',
+      descricao : 'Nesse projeto desenvolvo uma ferramenta capaz de facilitar a emissão de fatura para clientes, é possível cadastrar novos clientes com cnpj e cada cliente pode ter uma lista de servico, com descrição e valor. No final é gerado um PDF com todas as informações e com data de competência e valor total, foi utilizado alem das demais ferramentas dos projetos anteriores o Firebase do google para autenticar e fazer CRUD. Para acessar por favor entre em contato atraves do Linkedin.',
       github : 'https://github.com/Diegobuenodesouza/faturaCliente',
       site: 'https://cliente-fatura.azurewebsites.net/'
     },
+   
   ]
 
   constructor() { }
