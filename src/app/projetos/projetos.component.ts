@@ -27,6 +27,13 @@ export class ProjetosComponent implements OnInit {
       github : 'https://github.com/Diegobuenodesouza/faturaCliente',
       site: 'https://cliente-fatura.azurewebsites.net/'
     },
+
+     {
+      titulo : 'Tabuada',
+      descricao : 'Nesse projeto desenvolvo uma tabuada usando Angular, Bootstrap e Azure',
+      github : 'https://github.com/Diegobuenodesouza/Tabuada-do-0-ao-n',
+      site: 'https://tabuada.azurewebsites.net/'
+    },
    
   ]
 
