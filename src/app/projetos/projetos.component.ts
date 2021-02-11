@@ -30,7 +30,7 @@ export class ProjetosComponent implements OnInit {
 
      {
       titulo : 'Tabuada',
-      descricao : 'Nesse projeto desenvolvo uma tabuada usando Angular, Bootstrap e Azure',
+      descricao : 'Nesse projeto desenvolvo uma tabuada usando Angular, Bootstrap e Azure.',
       github : 'https://github.com/Diegobuenodesouza/Tabuada-do-0-ao-n',
       site: 'https://tabuada.azurewebsites.net/'
     },

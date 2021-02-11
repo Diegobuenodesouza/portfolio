@@ -32,8 +32,8 @@ export class TrabalhoComponent implements OnInit {
   },
   {
     instituicao: "Udemy",
-    curso: "C# COMPLETO 2020 Programação Orientada a Objetos + Projetos",
-    periodo: "2020"
+    curso: "Java COMPLETO Programação Orientada a Objetos +Projetos",
+    periodo: "Fev/2021 - Cursando "
   },
   {
     instituicao: "Udemy",
