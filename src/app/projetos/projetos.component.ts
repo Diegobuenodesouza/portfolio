@@ -10,29 +10,38 @@ export class ProjetosComponent implements OnInit {
   projetos = [
     {
       titulo : 'Meu Portfolio',
-      descricao : 'Nesse projeto crio meu portfolio, usando Angular, Bootstrap, HTML, CSS , Typescript e Azure.',
+      descricao : 'Nesse projeto crio meu portfolio, usando Angular, Bootstrap, HTML, CSS , Typescript e Github.',
       github : 'https://github.com/Diegobuenodesouza/portfolio',
-      site: 'https://devportfolio.azurewebsites.net/'      
+      site: 'https://diegobuenodesouza.github.io/meu-portfolio/'      
     },
     {
-      titulo : 'Game traduzir frases',
-      descricao : 'Nesse projeto crio game para traduzir frases, aonde tem 4 tentativas. A cada erro ou solicitação de dica, você perde um  ♥. Foi utilizado Angular, Bootstrap, HTML, CSS , Typescript e Azure.',
-      github : 'https://github.com/Diegobuenodesouza/traduzirfases',
-      site:'https://traduzir-frases.azurewebsites.net/'
+      titulo : 'Operadores Logicos',
+      descricao : 'Os operadores lógicos entram quando precisamos realizar operações sobre um ou dois valores booleano (verdadeiro ou falso), usando Angular, Bootstrap, HTML, CSS , Typescript e Github.',
+      github : 'https://github.com/Diegobuenodesouza/operadores-logicos',
+      site:'https://diegobuenodesouza.github.io/operadoreslogicos/'
       
-    },
-    {
-      titulo : 'Emissor de faturas ',
-      descricao : 'Nesse projeto desenvolvo uma ferramenta capaz de facilitar a emissão de fatura para clientes, é possível cadastrar novos clientes com cnpj e cada cliente pode ter uma lista de servico, com descrição e valor. No final é gerado um PDF com todas as informações e com data de competência e valor total, foi utilizado alem das demais ferramentas dos projetos anteriores o Firebase do google para autenticar e fazer CRUD. Para acessar por favor entre em contato atraves do Linkedin.',
-      github : 'https://github.com/Diegobuenodesouza/faturaCliente',
-      site: 'https://cliente-fatura.azurewebsites.net/'
-    },
+    },   
 
      {
       titulo : 'Tabuada',
-      descricao : 'Nesse projeto desenvolvo uma tabuada usando Angular, Bootstrap e Azure.',
+      descricao : 'Nesse projeto desenvolvo uma tabuada usando Angular, Bootstrap e Github.',
       github : 'https://github.com/Diegobuenodesouza/Tabuada-do-0-ao-n',
-      site: 'https://tabuada.azurewebsites.net/'
+      site: 'https://diegobuenodesouza.github.io/tabuadaangular/'
+    },
+
+      {
+      titulo : 'Calculadora Combustivel',
+      descricao : 'Nesse projeto desenvolvo calculadora compara preço do litro do álcool com o da gasolina e mostra qual deles é mais vantajoso. Cálculo leva em conta que álcool deve custar até 70% da gasolina para valer a pena. Acima desse percentual é melhor abastecer com gasolina.',
+      github : 'https://github.com/Diegobuenodesouza/calculadora_combustivel',
+      site: 'https://diegobuenodesouza.github.io/calculadoracombustivel/'
+    },
+
+    {
+      titulo : 'Game traduzir frases',
+      descricao : 'Nesse projeto crio game para traduzir frases, aonde tem 4 tentativas. A cada erro ou solicitação de dica, você perde um  ♥. Foi utilizado Angular, Bootstrap, HTML, CSS , Typescript e Github.',
+      github : 'https://github.com/Diegobuenodesouza/tradutor-frases-games',
+      site:'https://diegobuenodesouza.github.io/tradutor-frases/'
+      
     },
    
   ]
